@@ -8,6 +8,10 @@ function Weather() {
     <div>
       <h1> Weather App</h1>
       <Search />
+        <small>
+            <a href="https://github.com/MarKru21" target="_blank">Open source code,</a>
+            by Marlen Krügener
+        </small>
     </div>
   );
 }
