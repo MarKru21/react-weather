@@ -2,11 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import Search from "./Search";
+import Weather from "./Weather";
 
-function Weather() {
+function WeatherApp() {
   return (
     <div>
-      <h1> Weather App</h1>
+      <Weather />
       <Search />
       <footer>
         This project was coded by Marlen Krügener and is{" "}
@@ -17,4 +18,4 @@ function Weather() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<Weather />, rootElement);
+ReactDOM.render(<WeatherApp />, rootElement);
