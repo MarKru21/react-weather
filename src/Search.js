@@ -39,7 +39,8 @@ export default function Search(props) {
 
   if (loaded) {
     return (
-      <div>
+      <div className="Search">
+        <div className="container">
         {form}
         <h3>{weather.place}</h3>
         <ul>
@@ -51,6 +52,7 @@ export default function Search(props) {
           </li>
           <li>{weather.description}</li>
         </ul>
+      </div>
       </div>
     );
   } else {
