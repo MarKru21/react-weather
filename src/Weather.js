@@ -3,13 +3,14 @@ import "./Weather.css";
 
 export default function Weather() {
     return(
+        <div>
         <div className="Weather">
              <form>
                  <div className="row">
-                     <div className="col-3">
-      <input type="search" placeholder="Type a city" className="Search"/>
+                     <div className="col-6">
+      <input type="search" placeholder="Enter a city..." className="Search" autoFocus="on"/>
       </div>
-      <div className="col-9">
+      <div className="col-6">
       <input type="submit" value="Search" className="btn btn-primary btn-sm"/>
       {" "}
       <button className="btn btn-success btn-sm">Current</button>
@@ -25,10 +26,14 @@ export default function Weather() {
                     Mostly cloudy
                 </li>
             </ul>
-            <div className="row">
+            <div className="row mt-3">
                 <div className="col-6">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Mostly Cloudy"/>
-                    6°C
+                    <div className="clearfix">
+                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Mostly Cloudy" className="float-left"/>
+                    <div className="float-left">
+                    <span className="temperature">6</span><span className="unit">°C</span>
+                </div>
+                </div>
                 </div>
                   <div className="col-6">
                       <ul>
@@ -44,6 +49,12 @@ export default function Weather() {
                       </ul>
                   </div>
             </div>
+             </div>
+             <footer>
+        This project was coded by Marlen Krügener and is{" "}
+            <a href="https://github.com/MarKru21">open sourced on Github</a>
+        </footer>
         </div>
+
     )
 }

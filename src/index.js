@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 
 import Search from "./Search";
 import Weather from "./Weather";
@@ -9,10 +10,6 @@ function WeatherApp() {
     <div>
       <Weather />
       <Search />
-      <footer>
-        This project was coded by Marlen Krügener and is{" "}
-            <a href="https://github.com/MarKru21">open sourced on Github</a>
-        </footer>
     </div>
   );
 }
