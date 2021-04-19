@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
-import Search from "./Search";
+import App from "./App";
 import Weather from "./Weather";
 
 function WeatherApp() {
   return (
     <div>
       <Weather defaultCity="Berlin"/>
-      <Search />
+      <App />
     </div>
   );
 }

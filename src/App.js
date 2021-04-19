@@ -1,13 +1,13 @@
-import "./search.css";
+import "./app.css";
 import React from "react";
 
-export default function Search() {
+export default function App() {
 return(
   <div>
-    <footer>
+    <footer className="Github">
         This project was coded by Marlen Krügener and is{" "}
             <a href="https://github.com/MarKru21">open sourced on Github</a>
-        </footer>
+             </footer>
           </div>
 )
 }
