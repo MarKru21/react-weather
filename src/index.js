@@ -8,7 +8,7 @@ import Weather from "./Weather";
 function WeatherApp() {
   return (
     <div>
-      <Weather />
+      <Weather defaultCity="Berlin"/>
       <Search />
     </div>
   );
