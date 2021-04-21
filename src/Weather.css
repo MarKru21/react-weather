@@ -32,11 +32,10 @@
   margin: 0 auto;
 }
 
-.Weather img {
-  height: 64px;
-  margin-right: 10px;
+.Weather canvas {
   display: inline-block;
-  width: 64px;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 .Weather .temperature {
   font-weight: bold;
