@@ -30,6 +30,7 @@ function search() {
 function handleSubmit(event) {
     event.preventDefault();
     search(city);
+}
 
 function handleCityChange(event) {
 setCity(event.target.value);
@@ -56,6 +57,5 @@ if(weatherData.ready) {
 } else {
     search();
     return "Loading ..."
-}
 }
 }
