@@ -1,0 +1,13 @@
+.Weatherinfo h1 {
+  margin-bottom: 20px;
+  color: #274472;
+  font-size: 30px;
+}
+
+.Weatherinfo li {
+  margin-bottom: 10px;
+}
+
+.Weatherinfo ul {
+  color: #41729f;
+}
